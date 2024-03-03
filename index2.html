@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kundans Showcase</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f3f3f3;
+    }
+    .headline {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .headline h1 {
+        font-size: 24px;
+        color: #333;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        justify-items: center;
+    }
+    .product {
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+        width: 200px; /* Adjust the width of the product container */
+    }
+    .product:hover {
+        transform: translateY(-10px);
+    }
+    .product img {
+        width: 100%;
+        height: auto;
+    }
+    .product-info {
+        padding: 20px;
+    }
+    .product-name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .product-description {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 15px;
+    }
+    .buy-button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .buy-button:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+<div class="headline">
+    <h1>Shop Kundans</h1>
+</div>
+<div class="container">
+    <!-- Product 1 -->
+    <div class="product">
+        <img src="img1.jpeg" alt="Product Image 1">
+        <div class="product-info">
+            <div class="product-name">Hussain Mash</div>
+            <div class="product-description">Spceialist at Andi pidikal</div>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+        <img src="img2.jpeg" alt="Product Image 2">
+        <div class="product-info">
+            <div class="product-name">Fizan Kader Ka</div>
+            <div class="product-description">Description for Product 2</div>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+        <img src="img3.jpeg" alt="Product Image 3">
+        <div class="product-info">
+            <div class="product-name">Ghanim </div>
+            <div class="product-description">The best gay you can get at this price</div>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- Add more products as needed -->
+
+</div>
+</body>
+</html>
